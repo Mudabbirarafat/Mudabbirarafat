@@ -112,5 +112,5 @@ TaskFlow — JWT auth and role-based permissions for admins and members.
 ---
 
 <div align="center">
-<sub>Graduating 2026 · open to backend, full-stack and platform roles · <a href="mailto:mudabbirarafat000@gmail.com">mudabbirarafat000@gmail.com</a></sub>
+<sub>Graduated 2026 · open to backend, full-stack and platform roles · <a href="mailto:mudabbirarafat000@gmail.com">mudabbirarafat000@gmail.com</a></sub>
 </div>
