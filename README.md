@@ -53,7 +53,7 @@ I build web services end to end — Next.js on the front, Node and FastAPI behin
 
 ### 🚀 Featured projects
 
-#### 🔐 [secure-file-sharing](https://github.com/Mudabbirarafat/secure-file-sharing) · [live demo](https://secure-file-sharing-gold.vercel.app)
+#### 🔐 [secure-file-sharing](https://github.com/Mudabbirarafat/secure-file-sharing)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![CI](https://github.com/Mudabbirarafat/secure-file-sharing/actions/workflows/ci.yml/badge.svg)
@@ -61,7 +61,7 @@ I build web services end to end — Next.js on the front, Node and FastAPI behin
 
 Signed, expiring download links with role-separated client and ops access. JWT auth, hashed credentials, SQLAlchemy models.
 
-#### 📦 [django-file-upload-access-control](https://github.com/Mudabbirarafat/django-file-upload-access-control) · [live demo](https://django-file-upload-access-control.vercel.app)
+#### 📦 [django-file-upload-access-control](https://github.com/Mudabbirarafat/django-file-upload-access-control)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![DRF](https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white)
 ![CI](https://github.com/Mudabbirarafat/django-file-upload-access-control/actions/workflows/ci.yml/badge.svg)
