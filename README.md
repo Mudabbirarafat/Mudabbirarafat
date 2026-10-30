@@ -53,49 +53,64 @@ I build web services end to end — Next.js on the front, Node and FastAPI behin
 
 ### 🚀 Featured projects
 
-<div align="center">
+#### 🔐 [secure-file-sharing](https://github.com/Mudabbirarafat/secure-file-sharing) · [live demo](https://secure-file-sharing-gold.vercel.app)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![CI](https://github.com/Mudabbirarafat/secure-file-sharing/actions/workflows/ci.yml/badge.svg)
+![Stars](https://img.shields.io/github/stars/Mudabbirarafat/secure-file-sharing?style=flat-square&color=blue)
 
-<a href="https://github.com/Mudabbirarafat/secure-file-sharing">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mudabbirarafat&repo=secure-file-sharing&theme=tokyonight&hide_border=true" alt="secure-file-sharing"/>
-</a>
-<a href="https://github.com/Mudabbirarafat/django-file-upload-access-control">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mudabbirarafat&repo=django-file-upload-access-control&theme=tokyonight&hide_border=true" alt="django-file-upload-access-control"/>
-</a>
-<a href="https://github.com/Mudabbirarafat/storyforge-ai-voice-narrator">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mudabbirarafat&repo=storyforge-ai-voice-narrator&theme=tokyonight&hide_border=true" alt="storyforge-ai-voice-narrator"/>
-</a>
-<a href="https://github.com/Mudabbirarafat/medvision-ai">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mudabbirarafat&repo=medvision-ai&theme=tokyonight&hide_border=true" alt="medvision-ai"/>
-</a>
+Signed, expiring download links with role-separated client and ops access. JWT auth, hashed credentials, SQLAlchemy models.
 
-</div>
+#### 📦 [django-file-upload-access-control](https://github.com/Mudabbirarafat/django-file-upload-access-control) · [live demo](https://django-file-upload-access-control.vercel.app)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white)
+![CI](https://github.com/Mudabbirarafat/django-file-upload-access-control/actions/workflows/ci.yml/badge.svg)
 
-| Project | Live |
-| --- | --- |
-| **secure-file-sharing** — signed, expiring download links with role-separated client/ops access · Flask + JWT | [demo](https://secure-file-sharing-gold.vercel.app) |
-| **django-file-upload-access-control** — DRF service for encrypted uploads behind signed URLs | [demo](https://django-file-upload-access-control.vercel.app) |
-| **storyforge-ai-voice-narrator** — speech in, generated narration out | [demo](https://storyforge-ai-voice-narrator.vercel.app) |
-| **canoply-clone** — pixel-accurate Next.js rebuild, responsive to mobile | [demo](https://canoply-clone.vercel.app) |
-| **mern-gym-website** — MERN fitness site with contact flow | [demo](https://mern-gym-website-dlcu.vercel.app) |
-| **Courier_Management_springboot** — Spring Boot + JPA shipment tracking | — |
+Encrypted uploads behind time-limited signed URLs, with per-user access rules enforced at the API layer.
+
+#### 🎙 [storyforge-ai-voice-narrator](https://github.com/Mudabbirarafat/storyforge-ai-voice-narrator) · [live demo](https://storyforge-ai-voice-narrator.vercel.app)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Stars](https://img.shields.io/github/stars/Mudabbirarafat/storyforge-ai-voice-narrator?style=flat-square&color=blue)
+
+Speak a few keywords, get back a fully narrated audio story. Transcription, generation and MP3 playback in the browser.
+
+#### 🩺 [medvision-ai](https://github.com/Mudabbirarafat/medvision-ai)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![CNN](https://img.shields.io/badge/Deep_Learning-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
+Medical imaging assistant that drafts structured findings from scans.
+
+#### 🎨 [canoply-clone](https://github.com/Mudabbirarafat/canoply-clone) · [live demo](https://canoply-clone.vercel.app)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Stars](https://img.shields.io/github/stars/Mudabbirarafat/canoply-clone?style=flat-square&color=blue)
+
+Pixel-accurate marketing-site rebuild with Framer Motion, responsive down to mobile.
+
+#### 📋 [team-task-manager](https://github.com/Mudabbirarafat/team-task-manager)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![CI](https://github.com/Mudabbirarafat/team-task-manager/actions/workflows/ci.yml/badge.svg)
+
+TaskFlow — JWT auth and role-based permissions for admins and members.
+
+<details>
+<summary><b>More projects</b></summary>
+
+<br/>
+
+- [**Courier_Management_springboot**](https://github.com/Mudabbirarafat/Courier_Management_springboot) — Spring Boot + Spring Data JPA shipment booking and tracking over MySQL
+- [**mern-gym-website**](https://github.com/Mudabbirarafat/mern-gym-website) — MERN fitness site with contact flow · [live demo](https://mern-gym-website-dlcu.vercel.app)
+- [**car-rental-system**](https://github.com/Mudabbirarafat/car-rental-system) — PHP/MySQL rentals with role-based login
+- [**shl-assessment-recommender**](https://github.com/Mudabbirarafat/shl-assessment-recommender) — FastAPI recommender over a TF-IDF index
+- [**C-WebSocket-Chat**](https://github.com/Mudabbirarafat/C-WebSocket-Chat) — C++ WebSocket chat server on Winsock, handshake and framing written by hand
+
+</details>
 
 ---
 
-### 📊 GitHub
-
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Mudabbirarafat&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mudabbirarafat&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="top languages"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Mudabbirarafat&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6" alt="trophies"/>
-
-</div>
-
----
-
-<div align="center">
-<sub>Graduating 2026 · open to backend, full-stack and platform roles</sub>
+<sub>Graduating 2026 · open to backend, full-stack and platform roles · <a href="mailto:mudabbirarafat000@gmail.com">mudabbirarafat000@gmail.com</a></sub>
 </div>
