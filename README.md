@@ -53,7 +53,7 @@ I build web services end to end — Next.js on the front, Node and FastAPI behin
 
 ### 🚀 Featured projects
 
-#### 🔐 [secure-file-sharing](https://github.com/Mudabbirarafat/secure-file-sharing)
+#### 🔐 [secure-file-sharing](https://github.com/Mudabbirarafat/secure-file-sharing) · [live API](https://secure-file-sharing-z0x9.onrender.com)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![CI](https://github.com/Mudabbirarafat/secure-file-sharing/actions/workflows/ci.yml/badge.svg)
