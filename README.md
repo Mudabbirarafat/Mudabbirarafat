@@ -106,6 +106,7 @@ TaskFlow — JWT auth and role-based permissions for admins and members.
 - [**car-rental-system**](https://github.com/Mudabbirarafat/car-rental-system) — PHP/MySQL rentals with role-based login
 - [**shl-assessment-recommender**](https://github.com/Mudabbirarafat/shl-assessment-recommender) — FastAPI recommender over a TF-IDF index
 - [**C-WebSocket-Chat**](https://github.com/Mudabbirarafat/C-WebSocket-Chat) — C++ WebSocket chat server on Winsock, handshake and framing written by hand
+- [**mochand-upgraded**](https://github.com/Mudabbirarafat/mochand-upgraded) — marketing site for an automation product · [live site](https://mudabbirarafat.github.io/mochand-upgraded/)
 
 </details>
 
