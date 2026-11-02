@@ -56,13 +56,17 @@ I build web services end to end — Next.js on the front, Node and FastAPI behin
 #### 🛡 [depwatch](https://github.com/Mudabbirarafat/depwatch) · [live dashboard](https://depwatch-2oj2.onrender.com)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![CI](https://github.com/Mudabbirarafat/depwatch/actions/workflows/ci.yml/badge.svg)
 ![Stars](https://img.shields.io/github/stars/Mudabbirarafat/depwatch?style=flat-square&color=blue)
 
-Dependency health and supply-chain risk, built as a pipeline: npm and OSV ingested with bounded concurrency and backoff, every payload landed raw before validation so a parser bug replays from disk, idempotent upserts into the warehouse, then version-aware risk scoring. Paste a `package.json` and it names the pinned dependencies still carrying unfixed advisories, with the reasoning behind every score.
+End-to-end pipeline with a typed React dashboard in front of it. npm and OSV ingested with bounded concurrency and backoff, every payload landed raw before validation so a parser bug replays from disk, idempotent upserts into the warehouse, version-aware risk scoring, and a scheduled refresh behind freshness and data-quality gates. Paste a `package.json` and it names the pinned dependencies still carrying unfixed advisories, with the reasoning behind every score.
 
-<sub>118 tests; CI runs a live ingest against the real registries, so a schema change there fails the build. Free instance — the first request may take ~50s to wake it.</sub>
+<sub>191 Python + 21 frontend tests. CI runs a live ingest against the real registries, a Postgres job for the dialect-specific upsert, and builds the deployment image itself. Free instance — the first request may take ~50s to wake it.</sub>
 
 #### 🔐 [secure-file-sharing](https://github.com/Mudabbirarafat/secure-file-sharing) · [live API](https://secure-file-sharing-z0x9.onrender.com)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
