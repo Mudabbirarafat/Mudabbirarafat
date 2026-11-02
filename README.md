@@ -53,6 +53,17 @@ I build web services end to end — Next.js on the front, Node and FastAPI behin
 
 ### 🚀 Featured projects
 
+#### 🛡 [depwatch](https://github.com/Mudabbirarafat/depwatch) · [live dashboard](https://depwatch-2oj2.onrender.com)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![CI](https://github.com/Mudabbirarafat/depwatch/actions/workflows/ci.yml/badge.svg)
+![Stars](https://img.shields.io/github/stars/Mudabbirarafat/depwatch?style=flat-square&color=blue)
+
+Dependency health and supply-chain risk, built as a pipeline: npm and OSV ingested with bounded concurrency and backoff, every payload landed raw before validation so a parser bug replays from disk, idempotent upserts into the warehouse, then version-aware risk scoring. Paste a `package.json` and it names the pinned dependencies still carrying unfixed advisories, with the reasoning behind every score.
+
+<sub>118 tests; CI runs a live ingest against the real registries, so a schema change there fails the build. Free instance — the first request may take ~50s to wake it.</sub>
+
 #### 🔐 [secure-file-sharing](https://github.com/Mudabbirarafat/secure-file-sharing) · [live API](https://secure-file-sharing-z0x9.onrender.com)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
