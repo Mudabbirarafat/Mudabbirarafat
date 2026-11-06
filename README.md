@@ -53,6 +53,21 @@ I build web services end to end — Next.js on the front, Node and FastAPI behin
 
 ### 🚀 Featured projects
 
+#### 🔎 [scholarly](https://github.com/Mudabbirarafat/scholarly) · [live search](https://scholarly-jet.vercel.app)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SQLite FTS5](https://img.shields.io/badge/SQLite%20FTS5-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![CI](https://github.com/Mudabbirarafat/scholarly/actions/workflows/ci.yml/badge.svg)
+![Stars](https://img.shields.io/github/stars/Mudabbirarafat/scholarly?style=flat-square&color=blue)
+
+Semantic search over 114,581 arXiv CS abstracts, where the search is the easy part and the evidence beside it is the project. A paper's abstract is the query and the works it cites are the correct answers, so the ground truth costs nothing and nobody labelled it by hand. Dense retrieval beats the BM25 floor on a frozen query set — `recall@10` 0.1182 against 0.1059 — and a CI gate fails the build when a rebuild retrieves worse. Both retrievers answer side by side, each stating what it can and cannot explain.
+
+<sub>92 tests. Encoding runs in CI because a transformer does not fit beside the data on a 512 MB instance; serving measures 291 MB. Every number is published with its ceiling: only 14.7% of the corpus's citation edges point at a document the index can hold. Free instance — the first search may wait ~17s for it to wake, and the live index holds 5,000 of the 114,581 documents, which the page says.</sub>
+
 #### 🛡 [depwatch](https://github.com/Mudabbirarafat/depwatch) · [live dashboard](https://depwatch-2oj2.onrender.com)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -66,7 +81,7 @@ I build web services end to end — Next.js on the front, Node and FastAPI behin
 
 End-to-end pipeline with a typed React dashboard in front of it. npm and OSV ingested with bounded concurrency and backoff, every payload landed raw before validation so a parser bug replays from disk, idempotent upserts into the warehouse, version-aware risk scoring, and a scheduled refresh behind freshness and data-quality gates. Paste a `package.json` and it names the pinned dependencies still carrying unfixed advisories, with the reasoning behind every score.
 
-<sub>191 Python + 21 frontend tests. CI runs a live ingest against the real registries, a Postgres job for the dialect-specific upsert, and builds the deployment image itself. Free instance — the first request may take ~50s to wake it.</sub>
+<sub>299 Python + 35 frontend tests. CI runs a live ingest against the real registries, a Postgres job for the dialect-specific upsert, and builds the deployment image itself. Free instance — the first request may take ~50s to wake it.</sub>
 
 #### 🔐 [secure-file-sharing](https://github.com/Mudabbirarafat/secure-file-sharing) · [live API](https://secure-file-sharing-z0x9.onrender.com)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
