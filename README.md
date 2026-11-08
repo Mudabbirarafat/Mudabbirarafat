@@ -89,6 +89,7 @@ End-to-end pipeline with a typed React dashboard in front of it. npm and OSV ing
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![CI](https://github.com/Mudabbirarafat/cyberrun/actions/workflows/ci.yml/badge.svg)
 ![Stars](https://img.shields.io/github/stars/Mudabbirarafat/cyberrun?style=flat-square&color=blue)
 
 An endless runner through a neon city, playable in a browser tab with nothing to install and no account to make. The rendering is the visible part; the decision the rest hangs off is that the game core imports no Three.js at all. It is a world and a step function, and the renderer reads it and decides nothing — which is what lets the physics and the level generator be tested with no canvas and no WebGL to mock.
