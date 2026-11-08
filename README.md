@@ -35,6 +35,7 @@ I build web services end to end — Next.js on the front, Node and FastAPI behin
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
@@ -82,6 +83,17 @@ Semantic search over 114,581 arXiv CS abstracts, where the search is the easy pa
 End-to-end pipeline with a typed React dashboard in front of it. npm and OSV ingested with bounded concurrency and backoff, every payload landed raw before validation so a parser bug replays from disk, idempotent upserts into the warehouse, version-aware risk scoring, and a scheduled refresh behind freshness and data-quality gates. Paste a `package.json` and it names the pinned dependencies still carrying unfixed advisories, with the reasoning behind every score.
 
 <sub>299 Python + 35 frontend tests. CI runs a live ingest against the real registries, a Postgres job for the dialect-specific upsert, and builds the deployment image itself. Free instance — the first request may take ~50s to wake it.</sub>
+
+#### 🎮 [cyberrun](https://github.com/Mudabbirarafat/cyberrun) · [play it](https://cyberrun-tau.vercel.app)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Stars](https://img.shields.io/github/stars/Mudabbirarafat/cyberrun?style=flat-square&color=blue)
+
+An endless runner through a neon city, playable in a browser tab with nothing to install and no account to make. The rendering is the visible part; the decision the rest hangs off is that the game core imports no Three.js at all. It is a world and a step function, and the renderer reads it and decides nothing — which is what lets the physics and the level generator be tested with no canvas and no WebGL to mock.
+
+<sub>32 tests, none of which needs a browser. Physics steps at a fixed 120&nbsp;Hz, so a 144&nbsp;Hz machine plays the same game as a 60&nbsp;Hz one — asserted over 60 seconds of play rather than one frame. Every generated row is checked for a lane you can actually reach from the lane you are in, across 60 seeds and 400 rows: survivable is not the same as reachable. 60fps with bloom, chromatic aberration and a vignette — 16.7&nbsp;ms median against a 17.4&nbsp;ms worst frame over 240 frames. No backend and no database; the high score lives in `localStorage`.</sub>
 
 #### 🔐 [secure-file-sharing](https://github.com/Mudabbirarafat/secure-file-sharing) · [live API](https://secure-file-sharing-z0x9.onrender.com)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
